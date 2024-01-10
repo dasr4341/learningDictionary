@@ -3,7 +3,18 @@
 - Docker run —name container name -e key=value -e key2=value2 -d(detached mode) img-name
 - Docker stop container_name
 - Docker stop containerId
-- Docker container prune (delete all stopped containers)
-- 
+
+# Delete all stopped containers
+- Docker container prune
+
+# To get all the running containers
+- Docker ps --all
+
+# To get all the containers  (running + stopped)
+- docker container ls -a
+
+# To exec command inside this container shell
+- Docker exec -it containerId bash
+- exit (to exit from the shell)
 
   
