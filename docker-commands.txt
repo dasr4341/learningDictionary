@@ -1,0 +1,9 @@
+- Docker pull img-name
+- Docker run ing-name
+- Docker run —name container name -e key=value -e key2=value2 -d(detached mode) img-name
+- Docker stop container_name
+- Docker stop containerId
+- Docker container prune (delete all stopped containers)
+- 
+
+  
